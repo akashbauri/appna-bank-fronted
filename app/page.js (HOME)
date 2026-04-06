@@ -1,0 +1,14 @@
+export default function Home() {
+  return (
+    <main style={{ padding: 20, textAlign: "center" }}>
+      <h1>APPNA BANK</h1>
+      <p>This is a prototype. No real loans are disbursed.</p>
+
+      <a href="/dashboard">
+        <button style={{ padding: 10, marginTop: 20 }}>
+          Go to Dashboard
+        </button>
+      </a>
+    </main>
+  );
+}
